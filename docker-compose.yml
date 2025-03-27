@@ -1,0 +1,29 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: 'Y'
+      MSSQL_SA_PASSWORD: 'Password123!'
+    ports:
+      - '1435:1433'
+    restart: always
+    volumes:
+      -  mssql-data:/var/opt/mssql'
+  products:
+    image: viafacilprodutos:1.0
+    container_name: products
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports: 
+        - "32001:8080"
+  receipts:
+    image: viafacilreceipts:1.0
+    container_name: receipts
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports: 
+        - "32002:8081"
+
+volumes:
+  mssql-data:

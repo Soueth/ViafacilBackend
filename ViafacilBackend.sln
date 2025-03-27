@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D2DBEAF1-1392-44BD-8989-6D62965C506C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViafacilReceipts", "Services\ViafacilReceipts\ViafacilReceipts.csproj", "{84309BCF-C708-445C-AEDF-74DB101C6108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViafacilProdutos", "Services\ViafacilProdutos\ViafacilProdutos.csproj", "{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84309BCF-C708-445C-AEDF-74DB101C6108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84309BCF-C708-445C-AEDF-74DB101C6108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84309BCF-C708-445C-AEDF-74DB101C6108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84309BCF-C708-445C-AEDF-74DB101C6108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84309BCF-C708-445C-AEDF-74DB101C6108} = {D2DBEAF1-1392-44BD-8989-6D62965C506C}
+		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47} = {D2DBEAF1-1392-44BD-8989-6D62965C506C}
+	EndGlobalSection
+EndGlobal
