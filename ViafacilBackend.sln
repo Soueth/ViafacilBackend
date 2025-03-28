@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViafacilReceipts", "Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViafacilProdutos", "Services\ViafacilProdutos\ViafacilProdutos.csproj", "{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGSimpReleases", "Services\OGSimpReleases\OGSimpReleases.csproj", "{591286FE-6F6A-42E3-9B1B-DA6B27EE1615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591286FE-6F6A-42E3-9B1B-DA6B27EE1615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591286FE-6F6A-42E3-9B1B-DA6B27EE1615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591286FE-6F6A-42E3-9B1B-DA6B27EE1615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591286FE-6F6A-42E3-9B1B-DA6B27EE1615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{84309BCF-C708-445C-AEDF-74DB101C6108} = {D2DBEAF1-1392-44BD-8989-6D62965C506C}
 		{55204F67-00E4-47CC-A5FB-6DEF6D9FDC47} = {D2DBEAF1-1392-44BD-8989-6D62965C506C}
+		{591286FE-6F6A-42E3-9B1B-DA6B27EE1615} = {D2DBEAF1-1392-44BD-8989-6D62965C506C}
 	EndGlobalSection
 EndGlobal
