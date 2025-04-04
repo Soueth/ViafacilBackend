@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace OGSimpReleases.Entities;
 
 public abstract class Release : Entity
