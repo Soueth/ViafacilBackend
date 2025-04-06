@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-
 namespace OGSimpReleases.Entities;
 
 // Separando Lançamentos de Receitas e Despesas para favorecer escalabilidade, uma vez que podem ter mais diferenças entre essas entidades.
