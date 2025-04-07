@@ -1,6 +1,7 @@
 .vscode
 drive
 drive/*
+Package/*
 
 # Created by https://www.gitignore.io/api/csharp
 
